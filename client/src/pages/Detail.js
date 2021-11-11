@@ -16,7 +16,10 @@ import { idbPromise } from "../utils/helpers";
 import spinner from '../assets/spinner.gif'
 
 function Detail() {
+  // Context API state and Dispatch destructured from useStoreContext();
   //const [state, dispatch] = useStoreContext();
+
+  // Redux state and dispatch
   const [state, dispatch] = [useSelector(state => state), useDispatch()];
 
   const { id } = useParams();

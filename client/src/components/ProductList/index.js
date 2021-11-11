@@ -9,7 +9,10 @@ import { idbPromise } from "../../utils/helpers";
 import spinner from "../../assets/spinner.gif"
 
 function ProductList() {
+  // Context API state and dispatch
   // const [state, dispatch] = useStoreContext();
+
+  // Redux state and dispatch
   const [state, dispatch] = [useSelector(state => state), useDispatch()];
 
   const { currentCategory } = state;

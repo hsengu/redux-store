@@ -7,7 +7,10 @@ import { ADD_TO_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
 import { idbPromise } from "../../utils/helpers";
 
 function ProductItem(item) {
-  //const [state, dispatch] = useStoreContext();
+  // Context API state and dispatch
+  // const [state, dispatch] = useStoreContext();
+
+  // Redux state and dispatch
   const [state, dispatch] = [useSelector(state => state), useDispatch()];
 
   const {

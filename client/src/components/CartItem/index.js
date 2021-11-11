@@ -6,7 +6,10 @@ import { idbPromise } from "../../utils/helpers";
 
 const CartItem = ({ item }) => {
 
+  // Context API dispatch
   //const [, dispatch] = useStoreContext();
+
+  // Redux dispatch
   const dispatch = useDispatch();
 
   const removeFromCart = item => {

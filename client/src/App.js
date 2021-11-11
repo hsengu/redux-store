@@ -32,7 +32,9 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <div>
+          {/* Context API StoreProvider commented out to demonstrate move over to Redux */}
           {/* <StoreProvider> */}
+          {/* Redux Provider using Redux store */}
             <Provider store={store}>
               <Nav />
               <Switch>
