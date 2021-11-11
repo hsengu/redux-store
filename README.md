@@ -38,7 +38,7 @@ See the deployed application [here](https://intense-shore-35283.herokuapp.com/).
         $ npm install
 
 ## Usage
-        $ npm run start:dev
+        $ npm run develop
 
 ## Contributing to Redux Store
 Please follow contribution guidelines at the [Contributor Covenant](https://www.contributor-covenant.org/version/2/1/code_of_conduct/) to contribute to Redux Store.
